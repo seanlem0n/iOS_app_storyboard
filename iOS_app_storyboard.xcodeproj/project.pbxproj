@@ -14,6 +14,7 @@
 		8F64565C2420AA3C00FBB608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F64565A2420AA3C00FBB608 /* LaunchScreen.storyboard */; };
 		8F9CF14D2421A26000CAAF8D /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9CF14B2421A26000CAAF8D /* GestureViewController.swift */; };
 		8F9CF14E2421A26000CAAF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9CF14C2421A26000CAAF8D /* ViewController.swift */; };
+		8F9CF1502421C81400CAAF8D /* BoxInBoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9CF14F2421C81400CAAF8D /* BoxInBoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8F64565D2420AA3C00FBB608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9CF14B2421A26000CAAF8D /* GestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		8F9CF14C2421A26000CAAF8D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F9CF14F2421C81400CAAF8D /* BoxInBoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxInBoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				8F9CF14B2421A26000CAAF8D /* GestureViewController.swift */,
 				8F9CF14C2421A26000CAAF8D /* ViewController.swift */,
+				8F9CF14F2421C81400CAAF8D /* BoxInBoundsViewController.swift */,
 				8F64564F2420AA3B00FBB608 /* AppDelegate.swift */,
 				8F6456512420AA3B00FBB608 /* SceneDelegate.swift */,
 				8F6456552420AA3B00FBB608 /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9CF14D2421A26000CAAF8D /* GestureViewController.swift in Sources */,
+				8F9CF1502421C81400CAAF8D /* BoxInBoundsViewController.swift in Sources */,
 				8F6456502420AA3B00FBB608 /* AppDelegate.swift in Sources */,
 				8F9CF14E2421A26000CAAF8D /* ViewController.swift in Sources */,
 				8F6456522420AA3B00FBB608 /* SceneDelegate.swift in Sources */,
