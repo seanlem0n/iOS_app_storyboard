@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOS_app_storyboard.xcodeproj">
+      location = "group:/Users/sealim/Documents/XCode projects/iOS_app_storyboard/iOS_app_storyboard/GestureViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/sealim/Documents/XCode projects/iOS_app_storyboard/iOS_app_storyboard/ViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
