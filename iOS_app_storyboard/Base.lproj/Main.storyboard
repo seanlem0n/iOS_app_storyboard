@@ -37,6 +37,15 @@
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="alf-kS-1hA">
+                                <rect key="frame" x="20" y="431" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,17 +54,17 @@
                     <connections>
                         <outlet property="img" destination="Kxz-Bw-qd3" id="7S5-Xb-LbW"/>
                         <outlet property="label" destination="i9I-wS-zZX" id="EQq-9b-iHr"/>
+                        <outlet property="text" destination="alf-kS-1hA" id="uXl-O4-vjF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="etl-VI-1A3"/>
             </objects>
-            <point key="canvasLocation" x="-210" y="-107"/>
+            <point key="canvasLocation" x="-210.1449275362319" y="-107.14285714285714"/>
         </scene>
         <!--Box In Bounds View Controller-->
         <scene sceneID="ZGZ-Ae-Hx7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="idb-qK-jPM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="6P3-Wx-lrM" customClass="BoxInBoundsViewController" customModule="iOS_app_storyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gOj-n0-qqT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -102,6 +111,7 @@
                         <outlet property="imgView" destination="3cm-D9-34L" id="8D7-H2-TWA"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idb-qK-jPM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-210.1449275362319" y="557.8125"/>
         </scene>
