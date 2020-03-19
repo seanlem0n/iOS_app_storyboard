@@ -12,13 +12,11 @@ class GestureViewController: UIViewController {
 
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var text: UITextField!
     
     override func viewDidLoad() {
            super.viewDidLoad()
-       
-            text.text = "SWIPE INSIDE THE BOX"
-        
+
+           label.text = "SWIPE INSIDE THE BOX"
            img.isUserInteractionEnabled = true
            
            // SWIPE RIGHT
