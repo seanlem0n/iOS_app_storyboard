@@ -20,35 +20,25 @@ class GestureViewController: UIViewController {
            
            // SWIPE RIGHT
            let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.swipeGesture))
-           
            swipeRight.direction = UISwipeGestureRecognizer.Direction.right
-           
            img.addGestureRecognizer(swipeRight)
     
            
-           
            // SWIPE LEFT
            let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(self.swipeGesture))
-           
            swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
-           
            img.addGestureRecognizer(swipeLeft)
-           
            
            
            // SWIPE UP
            let swipeUp = UISwipeGestureRecognizer(target: self, action: #selector(self.swipeGesture))
-           
            swipeUp.direction = UISwipeGestureRecognizer.Direction.up
-           
            img.addGestureRecognizer(swipeUp)
-           
+        
            
            // SWIPE DOWN
            let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(self.swipeGesture))
-           
            swipeDown.direction = UISwipeGestureRecognizer.Direction.down
-        
            img.addGestureRecognizer(swipeDown)
        }
 
