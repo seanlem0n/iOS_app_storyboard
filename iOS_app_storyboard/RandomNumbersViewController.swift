@@ -15,10 +15,11 @@ class RandomNumbersViewController: UIViewController {
     }
     
     @IBAction func randomize(_ sender: Any) {
-        let numbers = 1...9
+        let myViews = view.subviews.compactMap{$0 as? UILabel}
+        
+        let numbers = 1...myViews.count
         let shuffledNumbers = numbers.shuffled()
         
-        let myViews = view.subviews.compactMap{$0 as? UILabel}
         
         for (index,label) in myViews.enumerated(){
             label.text = String(shuffledNumbers[index])
